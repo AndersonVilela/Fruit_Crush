@@ -11,16 +11,14 @@ void print_line()
 void clear_window()
 {
 #ifdef OS_Windows
-    // Codigo Windows
     system("cls");
 
 #else
-    // Codigo GNU/Linux
     system("clear");
 #endif
 }
 
-void pause()
+void pause_console()
 {
 #ifdef OS_Windows
     system("pause");

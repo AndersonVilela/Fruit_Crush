@@ -137,12 +137,12 @@ void game()
 
     case 'P':
       print_scoreboards();
-      pause();
+      pause_console();
       break;
 
     case 'I':
       print_instructions();
-      pause();
+      pause_console();
       break;
 
     default:
